@@ -50,5 +50,5 @@ nltk.download('wordnet')
    4. Run Notebooks:
 
 Execute the following Jupyter Notebooks :
-NLP_Model_development.ipynb
+/notebooks/NLP_Model_development.ipynb
 
