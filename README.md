@@ -25,13 +25,13 @@ The model is trained on a dataset (`mcc_merchant_data.csv`) containing merchant 
 
 3. **Model Evaluation:**
    - Evaluated using accuracy as the primary metric.
-   - Achieved [Insert Accuracy Score] accuracy on the validation set.
+   - Achieved 0.33 accuracy on the validation set.
 
 ## How to Run
 
 1. **Clone Repository:**
    ```bash
-   git clone [invalid URL removed]
+   git clone https://github.com/Rafay183/NLP_assesment_hugo.git
 
 
   2. Install Dependencies:
@@ -41,9 +41,13 @@ The model is trained on a dataset (`mcc_merchant_data.csv`) containing merchant 
 
 3. Download NLTK Data:
 
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
+```python -c 
+import nltk; 
+nltk.download('punkt'); 
+nltk.download('stopwords'); 
+nltk.download('wordnet')
 
-4. Run Notebooks:
+   4. Run Notebooks:
 
 Execute the following Jupyter Notebooks :
 NLP_Model_development.ipynb
